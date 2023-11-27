@@ -37,8 +37,53 @@ main {
     justify-content: center;
 }
 
-.information {
+.info {
     background-color: bisque;
+    display: flex;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+
+.info__highlight {
+    padding-right: 24px;
+    width: 60%;
+}
+
+.info__highlight img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info__highlight h2 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+#quote {
+    padding-bottom: 24px;
+}
+
+#byline {
+    padding-bottom: 32px;
+}
+
+.info__article {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__article--box {
+    display: flex;
+}
+
+.info__article--box--image {
+
+}
+
+.info__article--box--details {
+    display: flex;
+    flex-direction: column;
 }
 
 .course {
