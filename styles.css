@@ -300,6 +300,10 @@ nav {
     justify-content: flex-end;
 }
 
+.nav-button img {
+    display: none;
+}
+
 .nav-button a {
     margin-left: 16px;
 }
@@ -363,6 +367,62 @@ footer {
 }
 
 /* !! media-query for mobile responsive */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
+    /* ** nav text remove */
+    nav {
+        height: 64px;    }
 
+    .nav-button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .nav-button img {
+        display: block;
+        padding: 12px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #colmar-logo__text {
+        display: none;
+    }
+
+    #colmar-logo__image img {
+        display: none;
+    }
+
+    #nav-button-4 {
+        display: none;
+    }
+
+    .nav-button a {
+        display: none;
+    }
+    /* ** re-layout hero */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero__image {
+        width: 100%
+    }
+
+    .hero__text {
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+    }
+
+    .hero__text h3 {
+        margin-bottom: 24px;
+    }
+
+    .hero__text button {
+        width: auto;
+        margin-right: 16px;  
+    }
 }
