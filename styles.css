@@ -41,7 +41,6 @@ main {
 }
 
 .info {
-    background-color: bisque;
     display: flex;
     justify-content: center;
     margin-top: 32px;
@@ -52,9 +51,10 @@ main {
 
 .info__highlight {
     margin-right: 24px;
+    display: flex;
+    flex-direction: column;
     flex: 60%; 
     width: 60%;
-    background-color: aqua;
 }
 
 .info__highlight img {
@@ -64,16 +64,19 @@ main {
 }
 
 .info__highlight h2 {
+    margin: 0;
     padding-top: 32px;
     padding-bottom: 24px;
 }
 
 #quote {
-    padding-bottom: 24px;
+    padding-bottom: 32px;
+    margin: 0;
 }
 
 #byline {
     padding-bottom: 32px;
+    margin: 0;
 }
 
 .info__article {
