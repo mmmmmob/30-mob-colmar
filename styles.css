@@ -174,18 +174,97 @@ main {
 }
 
 .thesis {
-    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.thesis h1 {
+    /* !! add margin */
+    margin-bottom: 32px;
+    font-size: x-large;
+}
+
+.thesis__highlight {
+    display: flex;
+}
+
+.thesis__highlight--video {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 24px;
+}
+
+.thesis__highlight--video video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.thesis__highlight--video h2 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.thesis__highlight--video p {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.thesis__highlight--article {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.thesis__highlight--article--box {
+    display: flex;
+}
+
+.thesis__highlight--box--image {
+    background-color: aliceblue;
+    flex: 35%;
+    width: 30%;
+}
+
+.thesis__highlight--box--image img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.thesis__highlight--box--details {
+    display: flex;
+    flex: 65%;
+    flex-direction: column;
+}
+
+.thesis__highlight--box--details h4, p{
+    display: inline;
+    margin: 0;
+}
+
+.thesis__highlight--box--details h4 {
+    font-size: x-large;
+}
+
+.thesis__highlight--box--details p {
+    font-weight: 200;
 }
 
 nav {
     height: 64px;
-    display: fle
-    flex-wrap: wrap;    padding: 16px 24px;
-
-    .course__list--box {
-        display: flex;
-        flex-direction: column;
-    }
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 16px 24px;
 }
 
 .colmar-logo {
