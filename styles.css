@@ -9,12 +9,33 @@
 }
 
 /* !! desktop size flex parents */
-
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: gray;
+}
+
+nav {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 16px 24px;
 }
 
 /* !! children flex adjustments */
+#colmar-logo__image {
+    padding-top: 10px;
+    margin-right: -5px;
+}
+
+#colmar-logo__text h2 {
+    display: inline-block;
+    margin: -1px;
+}
+
+#colmar-logo__text--thin {
+    font-weight: 100;
+}
 
 /* !! media-query for mobile responsive */
 @media screen and (max-width: 360px) {
