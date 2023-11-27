@@ -11,13 +11,13 @@
 /* !! desktop size flex parents */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     flex-direction: column;
 }
 
 main {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,9 @@ main {
 
 .hero {
     background-color: lightgray;
-    padding: 32px 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -33,6 +35,7 @@ main {
 
 .hero__text {
     display: flex;
+    flex: 40%;
     flex-direction: column;
     justify-content: center;
 }
@@ -40,13 +43,18 @@ main {
 .info {
     background-color: bisque;
     display: flex;
-    padding-top: 32px;
-    padding-left: 24px;
+    justify-content: center;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
 }
 
 .info__highlight {
-    padding-right: 24px;
+    margin-right: 24px;
+    flex: 60%; 
     width: 60%;
+    background-color: aqua;
 }
 
 .info__highlight img {
@@ -70,20 +78,38 @@ main {
 
 .info__article {
     display: flex;
+    flex: 40%;
     flex-direction: column;
+    background-color: aliceblue;
+    border-left: 1px lightgray solid;
 }
 
 .info__article--box {
     display: flex;
+    border-bottom: 1px lightgray solid;
 }
 
 .info__article--box--image {
+    background-color: rebeccapurple;
+    flex: 35%;
+    width: 30%;
+}
 
+.info__article--box--image img {
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 .info__article--box--details {
     display: flex;
+    flex: 65%;
     flex-direction: column;
+}
+
+.info__article--box--details h4,p,a {
+    display: inline;
+    margin: 8px;
 }
 
 .course {
@@ -131,6 +157,7 @@ footer {
 .hero__image {
     margin-right: 24px;
     width: 60%;
+    flex: 60;
 }
 
 .hero__image img {
