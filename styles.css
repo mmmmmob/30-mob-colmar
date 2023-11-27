@@ -425,4 +425,90 @@ footer {
         width: auto;
         margin-right: 16px;  
     }
+    /* ** re-layout info */
+
+    .info {
+        margin: 0;
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-bottom: 32px;
+        padding-right: 16px;
+    }
+
+    .info__highlight {
+        display: none;
+        
+    }
+
+    .info__article {
+        border: 0;
+    }
+
+    .info__article--box {
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        padding: 0;
+    }
+
+    .info__article--box--image {
+        width: 100%;
+        height: 50px;
+    }
+
+    .info__article--box--image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .info__article--box--details {
+        margin: 0;
+        background-color: red;
+    }
+    /* ** edit thesis */
+
+    .thesis {
+        width: 100%;
+        margin: 0;
+    }
+
+    .thesis h1 {
+        margin: 0;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .thesis__highlight--video {
+        margin: 0;
+    }
+
+    .thesis__highlight--video video {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .thesis__highlight--video h2, p {
+        display: none;
+    }
+
+    .thesis__highlight--article {
+        display: none;
+    }
+
+    /* ** footer edit */
+    
+    footer {
+        padding-top: 24px;
+    }
+
+    #footer-bar__button {
+        display: none;
+    }
+
+    #footer-bar__text {
+        margin: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 }
