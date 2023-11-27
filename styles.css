@@ -1,9 +1,22 @@
+/* !! font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* !! box model reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 {
-    color: blue;
+/* !! desktop size flex parents */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* !! children flex adjustments */
+
+/* !! media-query for mobile responsive */
+@media screen and (max-width: 360px) {
+
 }
