@@ -28,7 +28,7 @@ main {
     padding: 32px 24px;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .hero__text {
@@ -84,16 +84,14 @@ footer {
 
 /* !! children flex adjustments */
 .hero__image {
-    background-color: bisque;
     margin-right: 24px;
-}
-
-.hero__image img {
     width: 60%;
 }
 
-.hero__text {
-    background-color: aqua;
+.hero__image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero__text h2 {
