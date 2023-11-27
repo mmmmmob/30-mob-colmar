@@ -229,21 +229,23 @@ main {
 }
 
 .thesis__highlight--box--image {
-    background-color: aliceblue;
+    margin-right: 16px;
     flex: 35%;
-    width: 30%;
 }
 
 .thesis__highlight--box--image img {
     display: block;
     height: auto;
     width: 100%;
+    margin: 16px;
 }
 
 .thesis__highlight--box--details {
     display: flex;
     flex: 65%;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
 }
 
 .thesis__highlight--box--details h4, p{
@@ -257,6 +259,10 @@ main {
 
 .thesis__highlight--box--details p {
     font-weight: 200;
+}
+
+#thesis-1 {
+    background-color: lightgray;
 }
 
 nav {
