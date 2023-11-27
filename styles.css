@@ -22,6 +22,20 @@ nav {
     padding: 16px 24px;
 }
 
+.colmar-logo {
+    display: flex;
+}
+
+.nav-button {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-button a {
+    margin-left: 16px;
+}
+
 /* !! children flex adjustments */
 #colmar-logo__image {
     padding-top: 10px;
