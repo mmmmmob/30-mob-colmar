@@ -83,13 +83,16 @@ main {
     display: flex;
     flex: 40%;
     flex-direction: column;
-    background-color: aliceblue;
+    justify-content: center;
     border-left: 1px lightgray solid;
 }
 
 .info__article--box {
     display: flex;
     border-bottom: 1px lightgray solid;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
 }
 
 .info__article--box--image {
@@ -104,15 +107,34 @@ main {
     width: 100%;
 }
 
+#article-3 {
+    background-color: lightgray;
+}
+
 .info__article--box--details {
     display: flex;
+    padding-left: 16px;
     flex: 65%;
     flex-direction: column;
 }
 
-.info__article--box--details h4,p,a {
+.info__article--box--details h4, p, a {
     display: inline;
     margin: 8px;
+}
+
+.info__article--box--details h4 {
+    font-size: x-large;
+}
+
+.info__article--box--details a {
+    color: rgb(59, 159, 221);
+    text-decoration: none;
+    
+}
+
+.info__article--box--details p {
+    font-weight: 200;
 }
 
 .course {
